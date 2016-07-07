@@ -11,7 +11,7 @@
 
 // var my-tweets = twitterNow();
 // var spotify-this-song = spotifyNow();
-//github
+
 // var movie-this = movieNow();
 
 var type = process.argv[2];
