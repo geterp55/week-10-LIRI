@@ -8,20 +8,22 @@
 // 		* spotify-this-song
 // 		* movie-this
 // 		* do-what-it-says
+//github
+// var my-tweets = twitterNow();
+// var spotify-this-song = spotifyNow();
 
-var my-tweets = twitterNow();
-var spotify-this-song = spotifyNow();
-var movie-this = movieNow();
+// var movie-this = movieNow();
 
+var type = process.argv[2];
 switch(type){
   case "my-tweets":
-	twitterNow() = 'my-tweets';
+	twitterNow();
     break;
   case "spotify-this-song":
-  	spotifyNow() = 'spotify-this-song';
+  	spotifyNow();
     break;
   case "movie-this":
-    movieNow() = 'movie-this';
+    movieNow();
 //     break;
 // //   case do-what-it-says:
 // //     //something here
